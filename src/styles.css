@@ -1,30 +1,45 @@
 /* Add application styles & imports to this file! */
 
-body{background-color: black;}
-            
-            @keyframes text-color {
-                0% { color: #c47233; }
+body {
+  background-color: black;
+}
 
-                20% { color: #1565a5; 
-                      font-size: 30px;
-                }
-    
-                40% { color: #b11c1d; }
+@keyframes text-color {
+  0% {
+    color: #c47233;
+  }
 
-                60% { color: #06700f; }
+  20% {
+    color: #1565a5;
+    font-size: 30px;
+  }
 
-                80% { color: #3eab9b; }
-            }
+  40% {
+    color: #b11c1d;
+  }
 
-            .body {
-                color: rgba(255, 255, 255, 0.8);
-                text-align: center;
-                font-size: 10px;
-            }
+  60% {
+    color: #06700f;
+  }
 
-            .header {
-                text-align: center;
-                animation: text-color 0.5s alternate infinite;
-                font-size: 25px;
-                color: black;
-            }
+  80% {
+    color: #3eab9b;
+  }
+}
+
+.body {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 10px;
+}
+
+.header {
+  text-align: center;
+  animation: text-color 0.5s alternate infinite;
+  font-size: 25px;
+  color: black;
+}
+
+.spacer {
+  height: 100px;
+}
